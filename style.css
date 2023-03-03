@@ -32,7 +32,8 @@ body{
   color: var(--text-color);
 }
 .container{
-  width: 300px;
+  width: 100%;
+  max-width: 580px;
   margin: 40px auto 0px;
   padding: 0 24px;
 }
