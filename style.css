@@ -30,6 +30,7 @@ body{
   background-position: top center;
   background-size: cover;
   color: var(--text-color);
+  height: 100vh;
 }
 .container{
   width: 100%;
@@ -149,5 +150,15 @@ footer{
   text-align: center;
   font-size: 14px;
   
+}
+
+/*media queries*/
+@media (min-width: 700px) {
+  :root{
+    --bg-url: url(./assets/bg.jpg);
+  }
+  .light{
+    --bg-url: url(./assets/bg-light.jpg);
+  }
 }
 
